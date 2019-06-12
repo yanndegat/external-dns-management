@@ -5,7 +5,7 @@ replicaCount: 1
 
 image:
   repository: eu.gcr.io/gardener-project/dns-controller-manager
-  tag: 0.5.5
+  tag: 0.5.6-master
   pullPolicy: IfNotPresent
 
 resources:
