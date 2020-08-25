@@ -3,6 +3,7 @@ external-dns-management:
   base_definition:
     repo: ~
     traits:
+      component_descriptor: ~
       version:
         preprocess: 'inject-commit-hash'
     steps:
