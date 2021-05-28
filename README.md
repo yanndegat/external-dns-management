@@ -12,6 +12,7 @@ It contains provisioning controllers for creating DNS records in one of the DNS 
   - [_Cloudflare DNS_](/docs/cloudflare/README.md),
   - [_Infoblox_](/docs/infoblox/README.md),
   - [_Netlify DNS_](docs/netlify/README.md),
+  - [_OVHCloud DNS_](docs/ovhcloud/README.md),
 
 and source controllers for services and ingresses to create DNS entries by annotations.
 
@@ -382,6 +383,7 @@ The following provider types can be selected (comma separated):
 - `cloudflare-dns`: Cloudflare DNS provider
 - `infoblox-dns`: Infoblox DNS provider
 - `netlify-dns`: Netlify DNS provider
+- `ovhcloud-dns`: OVHCloud DNS provider
 
 If the compound DNS Provisioning Controller is enabled it is important to specify a
 unique controller identity using the `--identifier` option.

@@ -16,6 +16,8 @@ spec:
   - kind: DNSProvider
     type: openstack-designate
   - kind: DNSProvider
+    type: ovhcloud-dns
+  - kind: DNSProvider
     type: cloudflare-dns
   deployment:
     type: helm
